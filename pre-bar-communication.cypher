@@ -44,7 +44,7 @@ CREATE
 (GW)-[:speaks_to]->(Grub),
 (GW)-[:speaks_to]->(Installer),
 (GW)-[:speaks_to]->(FrauM),
-(GW)-[:speaks_to]->(Udo),
+(GW)<-[:speaks_to]->(Udo),
 (GW)-[:speaks_to]->(Nutte),
 (GW)-[:speaks_to]->(ElevatorKid),
 (Grub)-[:speaks_to]->(GW),
@@ -71,7 +71,6 @@ CREATE
 (Haus)-[:speaks_to]->(Hempf),
 (Haus)-[:speaks_to]->(Schwalber),
 (Wall)-[:speaks_to]->(GD),
-(Udo)-[:speaks_to]->(GW),
 (Grub)-[:observes]->(GD)
 
 
