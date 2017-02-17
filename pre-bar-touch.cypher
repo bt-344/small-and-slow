@@ -45,6 +45,8 @@ CREATE
 (RandStasi1:Person{name:'Random Stasi Guy 1'}),
 (RandStasi2:Person{name:'Random Stasi Guy 2'}),
 (RandStasi3:Person{name:'Random Stasi Guy 3'}),
+(Schwalber:Person{name:'Schwalber'}),
+
 
 //Relationships
 (GW)-[:touches]->(Nutte),
