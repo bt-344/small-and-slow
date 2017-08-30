@@ -17,6 +17,8 @@ GW is heard by:
 Grub speaks to:
 	GW
 	Hempf
+	Joker
+	StasiTrio
 	
 Grub is heard by:
 	Stasi Class
