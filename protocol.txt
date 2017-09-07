@@ -23,16 +23,24 @@ Actions:
 SPEAKSTO
 SURVEILS
 TOUCHES
+HEARDBY
 
 <begin>
-Scene 1:
-Guard TOUCHES 227
-Guard SPEAKSTO 227
+Scene 1 (interrogation and class):
+Guard1 TOUCHES 227
+Guard1 SPEAKSTO 227
 GW SPEAKSTO Guard
 GW SPEAKSTO 227
 227 SPEAKSTO GW
 StasiClass SURVEILS 227 (listening to a tape recording... is this surveillance?)
+GW SPEAKSTO StasiClass
+Guard2 TOUCHES 227
+StasiStudent SPEAKSTO GW
+<GW TOUCHES 227 (Removes Seat cover, touches sweat... no actual touch, but still)>
+Grub HEARDBY Class
+Grub SPEAKSTO GW
+GW SPEAKSTO Grub
 
-
+Scene 2 (at the theater):
 
 <end>
