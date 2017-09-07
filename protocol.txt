@@ -1,0 +1,38 @@
+Das Leben der Anderen: Film Protocol
+
+Characters: (Should be in order of appearance?)
+Gerd Wiesler = GW
+Christa-Maria Sieland = CMS
+Georg Dreyman = GD
+Anton Grubitz = Grub
+Bruno Hempf = Hempf
+Paul Hauser = Haus
+Albert Jerska = Jer
+Karl Wallner = Wall
+Gregor Hessenstein = Hess
+Udo = Udo
+Prisoner 227 = 227
+Frau Meineke = FrauM
+Typewriter Expert = Expert
+Stasi Officer = Stasi1 (etc)
+Joking Stasi Guy = Joker
+Prostitute = Nutte
+Stasi Student
+
+Actions:
+SPEAKSTO
+SURVEILS
+TOUCHES
+
+<begin>
+Scene 1:
+Guard TOUCHES 227
+Guard SPEAKSTO 227
+GW SPEAKSTO Guard
+GW SPEAKSTO 227
+227 SPEAKSTO GW
+StasiClass SURVEILS 227 (listening to a tape recording... is this surveillance?)
+
+
+
+<end>
